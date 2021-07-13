@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="s4Ul+j+.VJ,-Mr{b5Sp7">projectile</variable><variable id=":h^r@#-A{#SIh%-.J.VC">mySprite</variable></variables><block type="gameinterval" id="VK2AhfOba0WV`%HjoeFq" x="0" y="0"><value name="period"><shadow type="timePicker" id="NO^od3xrAuu(M|pIWw,;"><field name="ms">1000</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="~_yt3lJWw,#@z0R$zt/{"><field name="VAR" id="s4Ul+j+.VJ,-Mr{b5Sp7">projectile</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside" id="EUN@=j5*X,`vg$_+8}+J"><value name="img"><shadow type="screen_image_picker" id="#1mx*t1J.-s~p8CcWRxU"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . 2 2 2 2 2 2 2 2 . . . . 
+. . . 2 4 2 2 2 2 2 2 c 2 . . . 
+. . 2 c 4 2 2 2 2 2 2 c c 2 . . 
+. 2 c c 4 4 4 4 4 4 2 c c 4 2 d 
+. 2 c 2 e e e e e e e b c 4 2 2 
+. 2 2 e b b e b b b e e b 4 2 2 
+. 2 e b b b e b b b b e 2 2 2 2 
+. e e 2 2 2 e 2 2 2 2 2 e 2 2 2 
+. e e e e e e f e e e f e 2 d d 
+. e e e e e e f e e f e e e 2 d 
+. e e e e e e f f f e e e e e e 
+. e f f f f e e e e f f f e e e 
+. . f f f f f e e f f f f f e . 
+. . . f f f . . . . f f f f . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"#1mx*t1J.-s~p8CcWRxU"}}</data></shadow></value><value name="vx"><shadow type="spriteSpeedPicker" id="99okr(e=n?w-4Q1xrnI)"><field name="speed">50</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="rh5ad*enph(TLTB4L,~O"><field name="speed">0</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id="$3,Ky)man#bFm6uI~KD4"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get" id="M)Hwh~+@tknoweW,D*Ee"><field name="VAR" id="s4Ul+j+.VJ,-Mr{b5Sp7">projectile</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="P,gw]X+N=F+Up#H@GE%O"><value name="min"><shadow type="math_number" id="tmJ92*8*u`njdq;}*V|_"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number"><field name="NUM">10</field></shadow><block type="scenescreenheight" id="ORZf@f~n*V%e3fj]@%tC"/></value></block></value></block></next></block></statement></block></xml>
